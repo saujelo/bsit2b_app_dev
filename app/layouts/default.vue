@@ -2,7 +2,7 @@
   <v-app>
     <v-navigation-drawer v-model="drawer" 
       :rail="rail" permanent
-      color="blue"
+      color="blue-lighten-1"
       >
 
       <template v-slot:prepend>
@@ -18,7 +18,7 @@
         <v-list-item prepend-icon="mdi-account-group-outline" title="Users" value="users"></v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar :elevation="2">
+    <v-app-bar :elevation="2" color="blue-lighten-2">
       <template v-slot:prepend>
         <v-app-bar-nav-icon @click="rail = !rail"></v-app-bar-nav-icon>
       </template>
